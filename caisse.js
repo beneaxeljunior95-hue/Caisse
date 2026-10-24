@@ -24,3 +24,8 @@ if (Montant_total <= Budjet_du_client) {
     } else {
   console.log("Budget insuffisant");
 }
+
+// Boucle : affichage des achats de 1 à 5
+for (let i = 1; i <= 5; i++) {
+  console.log("Achat numéro " + i);
+}
