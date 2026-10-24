@@ -9,3 +9,11 @@ let Quantité_de_stylos = 3;
 let Montant_cahiers = Prix_du_cahier * Quantité_de_cahiers;
 let Montant_stylos = Prix_du_stylo * Quantité_de_stylos;
 let Montant_total = Montant_cahiers + Montant_stylos;
+
+// Affichage de la caisse 
+
+console.log("====== Caisse ======");
+console.log("Montant des cahiers: " + Montant_cahiers + " FCFA");
+console.log("Montant des stylos: " + Montant_stylos + " FCFA");
+console.log("Montant total: " + Montant_total + " FCFA");
+console.log("Budget du client: " + Budjet_du_client + " FCFA");
