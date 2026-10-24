@@ -17,3 +17,10 @@ console.log("Montant des cahiers: " + Montant_cahiers + " FCFA");
 console.log("Montant des stylos: " + Montant_stylos + " FCFA");
 console.log("Montant total: " + Montant_total + " FCFA");
 console.log("Budget du client: " + Budjet_du_client + " FCFA");
+
+// Vérification si le client a assez d'argent pour payer
+if (Montant_total <= Budjet_du_client) {
+    console.log("Budjet suffisant");
+    } else {
+  console.log("Budget insuffisant");
+}
